@@ -1,17 +1,17 @@
-# Stereolabs ZED - Matlab Integration for windows
+# Stereolabs ZED - Matlab Integration for windows 10 
 
-This sample shows how to use the ZED SDK functionalities  within Matlab.
+This sample shows how to use the ZED SDK functionalities within Matlab on my PC.
 
-## Getting started
 
-- First, download the latest version of the ZED SDK on [stereolabs.com](https://www.stereolabs.com).
-- For more information, read the ZED [API documentation](https://www.stereolabs.com/developers/documentation/API/).
+# Prerequisites
 
-### Prerequisites
-
-- Windows 7 64bits or later, Ubuntu 16.04
-- Matlab with MEX compiler installed
-- [ZED SDK](https://www.stereolabs.com/developers/) and its dependency ([CUDA](https://developer.nvidia.com/cuda-downloads))
+- Windows 10 64bits 
+- NVIDIA GPU 
+- CUDA 9.0 (https://developer.nvidia.com/cuda-90-download-archive)
+- MS visual studio 2015
+- Matlab 2018b
+- ZED SDK cuda 9 version (https://www.stereolabs.com/developers/release/#sdkdownloads_anchor) 
+- cmake (https://cmake.org/download/)
 
 
 ## Build the program

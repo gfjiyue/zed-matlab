@@ -1,4 +1,4 @@
-# Stereolabs ZED - Matlab Integration
+# Stereolabs ZED - Matlab Integration for windows
 
 This sample shows how to use the ZED SDK functionalities  within Matlab.
 
@@ -20,16 +20,6 @@ This sample shows how to use the ZED SDK functionalities  within Matlab.
 
 For detailed installation instructions, check out our [documentation](https://www.stereolabs.com/documentation/integrations/matlab/getting-started.html).
 
-#### Build for Linux
-
-Download the sample and execute the following command in a terminal:
-
-    export MATLAB_ROOT=/usr/local/MATLAB/R2012b # Put your actual Matlab path here
-    mkdir build
-    cd build
-    cmake ../src
-    make
-    make install
 
 ## Run the program
 In the Matlab directory, open the file `ZED_Camera.m` with Matlab and press run. Press any key to exit the program.

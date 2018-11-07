@@ -16,9 +16,9 @@ This sample shows how to use the ZED SDK functionalities within Matlab on my PC.
 
 ## Build the program
 
-#### Build for Windows
+#### Build mexZED
 
-For detailed installation instructions, check out the "BUILD PROCEDURE" section in [documentation](https://www.stereolabs.com/documentation/integrations/matlab/getting-started.html).
+For detailed instructions, check out the "BUILD PROCEDURE" section in [documentation](https://www.stereolabs.com/documentation/integrations/matlab/getting-started.html).
 
 
 ## Run the program
@@ -48,21 +48,3 @@ This sample is split into 3 parts, each of them shows a specific feature of the 
 
 ### Limitations
 **This sample application is not designed to run in real time**
-
-
-### Troubleshooting
-On Linux, If you get the following error :
-
-     /usr/local/MATLAB/R2014a/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.21` not found
-
-Launch matlab with `LD_PRELOAD`:
-
-    LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21:/usr/lib/x86_64-linux-gnu/libfreetype.so.6 matlab&
-
-You can also create an alias in a bash terminal (just once) to simplify the launch:
-
-    echo "alias matlab=LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21:/usr/lib/x86_64-linux-gnu/libfreetype.so.6 matlab&" >> ~/.bashrc
-
-Then just launch the application by typing:
-
-    matlab

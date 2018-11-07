@@ -10,21 +10,24 @@ This sample shows how to use the ZED SDK functionalities within Matlab on my PC.
 - CUDA 9.0 (https://developer.nvidia.com/cuda-90-download-archive)
 - MS visual studio 2015 64bits
 - Matlab 2018b
-- ZED SDK cuda 9 version (https://www.stereolabs.com/developers/release/#sdkdownloads_anchor) 
 - cmake (https://cmake.org/download/)
 
 
-## Build the program
+# Procedures
 
-#### Build mexZED
+## Step 1 Install ZED SDK
+
+Download the ZED SDK cuda 9 version (https://www.stereolabs.com/developers/release/#sdkdownloads_anchor) and install.
+
+## Step 2 Build mexZED
 
 For detailed instructions, check out the "BUILD PROCEDURE" section in [documentation](https://www.stereolabs.com/documentation/integrations/matlab/getting-started.html).
 
 
-## Run the program
+## Step 3 Run the program in Matlab
 In the Matlab directory, open the file `ZED_Camera.m` with Matlab and press run. Press any key to exit the program.
 
-## Features
+## Results
 
 This sample is split into 3 parts, each of them shows a specific feature of the ZED SDK in Matlab.
 

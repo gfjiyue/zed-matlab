@@ -8,7 +8,7 @@ This sample shows how to use the ZED SDK functionalities within Matlab on my PC.
 - Windows 10 64bits 
 - NVIDIA GPU 
 - CUDA 9.0 (https://developer.nvidia.com/cuda-90-download-archive)
-- MS visual studio 2015
+- MS visual studio 2015 64bits
 - Matlab 2018b
 - ZED SDK cuda 9 version (https://www.stereolabs.com/developers/release/#sdkdownloads_anchor) 
 - cmake (https://cmake.org/download/)
@@ -18,7 +18,7 @@ This sample shows how to use the ZED SDK functionalities within Matlab on my PC.
 
 #### Build for Windows
 
-For detailed installation instructions, check out our [documentation](https://www.stereolabs.com/documentation/integrations/matlab/getting-started.html).
+For detailed installation instructions, check out the "BUILD PROCEDURE" section in [documentation](https://www.stereolabs.com/documentation/integrations/matlab/getting-started.html).
 
 
 ## Run the program
@@ -47,7 +47,7 @@ This sample is split into 3 parts, each of them shows a specific feature of the 
 	<img src="ZED_PointCloud.png" alt="Drawing" style="width: 600px;"/>
 
 ### Limitations
-This sample application is not designed to run in real time
+**This sample application is not designed to run in real time**
 
 
 ### Troubleshooting
